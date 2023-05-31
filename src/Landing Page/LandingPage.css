@@ -22,20 +22,18 @@ position: relative;
 .text-default{
     color:white;
 }
-.mobile-image{
-    background:url("../Assets/Mobilebackground.png");
+
+.download-section{
+    background: url("../Assets/Mobilebackground.png");
+    
     width: 100%;
     height: 680px;
     /* object-fit: contain; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-}
-.download-section{
-    background: url("../Assets/downloadSection.png");
-    
-    height: 680px;
-object-fit: cover;
+   
+
 background-repeat: no-repeat;
 }
 .playStoreImage{
@@ -98,8 +96,11 @@ width:100%;
 }
 .contact-us{
 color:white;
-text-align: center;
+/* text-align: center; */
 width: 50%;
+ 
+padding-right: 100px;
+
 }
 .circle-div{
 background: url("../Assets/circle.png");
@@ -134,7 +135,7 @@ background-color: black;
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
 
 }
 
@@ -184,6 +185,49 @@ padding: 10px 10px 10px 10px;
 
 .why-season{
 color:white;
-font-size:35px;
+font-size:40px;
 font-weight: 600;
+}
+.why-season-div{
+padding: 40px 50px 40px 50px;
+}
+
+.download-btn{
+    font-size:12px;
+    color:black;
+background: linear-gradient(70deg,#F4DBA0,#A58750);
+font-weight: 600;
+border:none;
+padding:10px 50px 10px 50px;
+}
+.download-app{
+    font-size:40px;
+font-weight: 600;
+
+}
+
+.download-app-div{
+padding: 40px 50px 40px 50px;
+
+}
+.download-app-text{
+    font-weight: 400;
+}
+
+.contact-us-text{
+    font-size:40px;
+    font-weight: 600;
+}
+
+.send-btn{
+    font-size:12px;
+    color:black;
+background: linear-gradient(70deg,#F4DBA0,#A58750);
+font-weight: 600;
+border:none;
+padding:10px 60px 10px 60px;  
+}
+
+.footer-options{
+padding: 0px 250px 0px 250px;
 }

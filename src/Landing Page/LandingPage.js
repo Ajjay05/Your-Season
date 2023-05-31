@@ -2,7 +2,7 @@ import React from 'react'
 import "./LandingPage.css"
 import Header from '../Header/Header'
 import logo from "../Assets/Your-season-Final-Logo-v1/logo.png"
-import playStoreImage from "../Assets/playstoreImage.png"
+import playStoreImage from "../Assets/playStore2x.png"
 import TeamImage from "../Assets/Team.svg"
 import outfit from "../Assets/first_circle.png"
 import collection from "../Assets/Third_circle.png"
@@ -84,15 +84,20 @@ const LandingPage = () => {
                     </div>
 
 
-                    <div className='bg-dark p-5'>
-                        <div className='why-season '>
+                    <div className='bg-dark why-season-div '>
+                        <div className='why-season mb-4'>
                             Why Your Season?
                         </div>
 
                         <div >
-                            <div className='d-flex align-items-center'>
+                            <div className='d-flex align-items-center mb-4'>
                                 <div className="text-default">
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                                   <div className='mb-4'>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                   </div>
+                                   <div> 
+                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                                    </div>
                                 </div>
 
                                 <div>
@@ -101,7 +106,7 @@ const LandingPage = () => {
                             </div>
                             <div>
 
-                                <button>
+                                <button className='download-btn'>
                                     Download
                                 </button>
                             </div>
@@ -112,14 +117,14 @@ const LandingPage = () => {
                     </div>
 
                     <div className='download-section bg-dark'>
-                        <div className='mobile-image'>
+                        <div className='download-app-div'>
 
-                            <div className='text-default' >
+                            <div className='text-default download-app mb-3' >
                                 Download the App Now
                             </div>
 
-                            <div className='text-default'>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            <div className='text-default mb-3'>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br/> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed<br/> diam voluptua.
                             </div>
                             <div className='playStoreImage'>
                                 <img src={playStoreImage} ></img>
@@ -132,36 +137,40 @@ const LandingPage = () => {
                             <img src={TeamImage} className="team-image"></img>
                         </div>
 
-                        <div className='contact-us'>
-                            <div>Contact Us!</div>
-                            <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
+                        <div className='contact-us '>
+                            <div className='contact-us-text mb-3'>Contact Us!</div>
+                            <div className='mb-4'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
                             <div className='d-flex flex-column'>
-                                <input></input>
-                                <input></input>
-                                <textarea></textarea>
-                                <button> Send</button>
+                            <input type="text" className='mb-3 py-2 px-3' placeholder='Name*' ></input>
+                            <input type="text" className='mb-3 py-2 px-3' placeholder='E-Mail*' ></input>
+                              
+                                <textarea type="text" className='mb-5 py-4 px-3' placeholder='Message*'></textarea>
+                               <div className=''>
+                                <button className='send-btn'> Send</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className='footer d-flex justify-content-center '>
-                        <div className='d-flex justify-content-center flex-column'>
-                            <div className='d-flex justify-content-center'>
+                    <div className='footer d-flex justify-content-center flex-column'>
+                        <div className='d-flex justify-content-center mb-4'>
+                            <div className='d-flex justify-content-center '>
                                 <img src={mainLogo} className="footer-logo"></img>
 
                             </div>
-                            <div className='d-flex justify-content-between'>
+                            
+                        </div>
+                        <div className='d-flex justify-content-around footer-options text-default'>
 
-                                <span>Account</span>
-                                <span>Account</span>
-                                <span>Account</span>
-                                <span>Account</span>
-                                <span>Account</span>
-
+                                <div>Home</div>
+                                <div>About Us</div>
+                                <div>Services</div>
+                                <div>Download</div>
+                                <div>Contact Us!</div>
+                                
 
 
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
