@@ -1,0 +1,189 @@
+.backGround-room{
+    background: url("../Assets/RoomImage/RoomImage.png");
+    /* background-size: 100% 100%; */
+width: 100%;
+height: 680px;
+/* object-fit: cover; */
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+position: relative;
+/* opacity: 0.85; */
+}
+.image-overLay{
+   background-color: #00000099;
+   width: 100%;
+   height: 100%;
+   left:0; 
+   top:0;
+   position: absolute;
+/* opacity: 0.85; */
+}
+.text-default{
+    color:white;
+}
+.mobile-image{
+    background:url("../Assets/Mobilebackground.png");
+    width: 100%;
+    height: 680px;
+    /* object-fit: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.download-section{
+    background: url("../Assets/downloadSection.png");
+    
+    height: 680px;
+object-fit: cover;
+background-repeat: no-repeat;
+}
+.playStoreImage{
+width:200px;
+height:80px ;
+}
+.playStoreImage img{
+    width:100%;
+    height:100% ;
+    object-fit: contain;
+
+}
+
+.first-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+}
+.collection_text{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.editor-choice{
+font-size: 16px;
+/* justify-content: center; */
+text-align: center;
+padding: 0px 180px 0px 180px;
+}
+.editor-choice-text{
+    background-color: white;
+color:black;
+border-radius: 15px;
+text-align: center;
+font-size: 16px;
+
+}
+
+.below-collection{
+font-size: 12px;
+font-weight: 400;
+}
+
+.try-for{
+    margin-top: 40px;
+    font-size:12px;
+    color:black;
+background: linear-gradient(70deg,#F4DBA0,#A58750);
+font-weight: 600;
+}
+
+.form-div{
+background-color: #1D1D1D;
+}
+.team-image{
+width:100%;
+}
+.contact-us{
+color:white;
+text-align: center;
+width: 50%;
+}
+.circle-div{
+background: url("../Assets/circle.png");
+width: 100%;
+height: 640px;
+background-color: black;
+/* object-fit: contain; */
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.circle-text{
+    height: 100%;
+}
+.feature_image_size{
+    height:70px;
+    width:70px;
+}
+.videoImage{
+height: 640px;
+width: 100%;
+}
+.video-div{
+background-color: black;
+}
+.footer{
+    background:url("../Assets/Mask\ Group\ 2.png");
+    width:100%;
+    height:300px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+
+.footer-logo{
+    width: 100px;
+    height: 100px;
+}
+.team-image-div{
+    padding: 80px 30px 80px 30px;
+    width:50%
+}
+/* .contact-div{
+    width:50%
+} */
+.awesome-features{
+    font-weight: 600;
+    font-size: 40px;
+    color:white;
+}
+
+.awesome-feature-belowText{
+  
+    font-weight: 400;
+    color:white;
+    font-size: 15px;
+}
+.explore-outfits{
+    margin-top: 7px;
+margin-bottom: 10px;
+    font-size:20px;
+    color:#A78952;
+    font-weight: 600;
+}
+.explore-outfits-text{
+color:white;
+font-size:14px;
+}
+
+.contact-us-btn{
+    font-size:12px;
+color:black;
+background: linear-gradient(70deg,#F4DBA0,#A58750);
+font-weight: 600;
+border:none;
+padding: 10px 10px 10px 10px;
+}
+
+.why-season{
+color:white;
+font-size:35px;
+font-weight: 600;
+}
