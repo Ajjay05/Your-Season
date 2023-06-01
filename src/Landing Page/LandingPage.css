@@ -57,32 +57,32 @@ height:80px ;
 }
 .collection_text{
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 .editor-choice{
-font-size: 16px;
+font-size: 1rem;
 /* justify-content: center; */
 text-align: center;
-padding: 0px 180px 0px 180px;
+padding: 0px 11.25rem 0px 11.25rem;
 }
 .editor-choice-text{
     background-color: white;
 color:black;
-border-radius: 15px;
+border-radius: 0.938rem;
 text-align: center;
-font-size: 16px;
+font-size: 1rem;
 
 }
 
 .below-collection{
-font-size: 12px;
+font-size: 0.75rem;
 font-weight: 400;
 }
 
 .try-for{
-    margin-top: 40px;
-    font-size:12px;
+    margin-top: 2.5rem;
+    font-size:0.75rem;
     color:black;
 background: linear-gradient(70deg,#F4DBA0,#A58750);
 font-weight: 600;
@@ -99,7 +99,7 @@ color:white;
 /* text-align: center; */
 width: 50%;
  
-padding-right: 100px;
+padding-right: 6.25rem;
 
 }
 .circle-div{
@@ -144,7 +144,7 @@ background-color: black;
     height: 100px;
 }
 .team-image-div{
-    padding: 80px 30px 80px 30px;
+    padding: 5rem 1.875rem 5rem 1.875rem;
     width:50%
 }
 /* .contact-div{
@@ -152,7 +152,7 @@ background-color: black;
 } */
 .awesome-features{
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.5rem;
     color:white;
 }
 
@@ -160,54 +160,54 @@ background-color: black;
   
     font-weight: 400;
     color:white;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 .explore-outfits{
-    margin-top: 7px;
-margin-bottom: 10px;
-    font-size:20px;
+    margin-top: 0.438rem;
+margin-bottom: 0.625rem;
+    font-size:1.25rem;
     color:#A78952;
     font-weight: 600;
 }
 .explore-outfits-text{
 color:white;
-font-size:14px;
+font-size:0.875rem;
 }
 
 .contact-us-btn{
-    font-size:12px;
+    font-size:0.75rem;
 color:black;
 background: linear-gradient(70deg,#F4DBA0,#A58750);
 font-weight: 600;
 border:none;
-padding: 10px 10px 10px 10px;
+padding: 0.625rem 0.625rem 0.625rem 0.625rem;
 }
 
 .why-season{
 color:white;
-font-size:40px;
+font-size:2.5rem;
 font-weight: 600;
 }
 .why-season-div{
-padding: 40px 50px 40px 50px;
+padding: 2.5rem 3.125rem 2.5rem 3.125rem;
 }
 
 .download-btn{
-    font-size:12px;
+    font-size:0.75rem;
     color:black;
 background: linear-gradient(70deg,#F4DBA0,#A58750);
 font-weight: 600;
 border:none;
-padding:10px 50px 10px 50px;
+padding:0.625rem 3.125rem 0.625rem 3.125rem;
 }
 .download-app{
-    font-size:40px;
+    font-size:2.5rem;
 font-weight: 600;
 
 }
 
 .download-app-div{
-padding: 40px 50px 40px 50px;
+padding: 2.5rem 3.125rem 2.5rem 3.125rem;
 
 }
 .download-app-text{
@@ -215,19 +215,19 @@ padding: 40px 50px 40px 50px;
 }
 
 .contact-us-text{
-    font-size:40px;
+    font-size:2.5rem;
     font-weight: 600;
 }
 
 .send-btn{
-    font-size:12px;
+    font-size:0.75rem;
     color:black;
 background: linear-gradient(70deg,#F4DBA0,#A58750);
 font-weight: 600;
 border:none;
-padding:10px 60px 10px 60px;  
+padding:0.625rem 3.75rem 0.625rem 3.75rem;  
 }
 
 .footer-options{
-padding: 0px 250px 0px 250px;
+padding: 0rem 15.625rem 0rem 15.625rem;
 }

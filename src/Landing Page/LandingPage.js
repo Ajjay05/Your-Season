@@ -16,6 +16,9 @@ const LandingPage = () => {
             {/* <div className='container-fluid'> */}
             <div className='row gx-0 '>
                 <div className='col-12'>
+
+{/* ============== First Portion ================ */}
+
                     <div className="backGround-room">
                         <div className='image-overLay'>
                             <Header></Header>
@@ -36,6 +39,8 @@ const LandingPage = () => {
                         </div>
 
                     </div>
+
+  {/* =========== Second Portion ============ */}
 
                     <div className='circle-div ' >
                         <div className=' circle-text d-flex justify-content-center flex-column text-center'>
@@ -79,10 +84,13 @@ const LandingPage = () => {
                         </div>
                     </div>
 
+   {/* ============= Third Portion ============== */}
+
                     <div className='video-div py-4 px-5'>
                         <img src={VideoImage} className="videoImage"></img>
                     </div>
 
+     {/* ========== Fourth Portion =============  */}
 
                     <div className='bg-dark why-season-div '>
                         <div className='why-season mb-4'>
@@ -116,6 +124,8 @@ const LandingPage = () => {
 
                     </div>
 
+      {/* ===========  Fifth Portion ============   */}
+
                     <div className='download-section bg-dark'>
                         <div className='download-app-div'>
 
@@ -132,6 +142,9 @@ const LandingPage = () => {
 
                         </div>
                     </div>
+
+        {/* =========== Sixth Div ===========       */}
+
                     <div className='form-div d-flex align-items-center justify-content-center'>
                         <div className='team-image-div'>
                             <img src={TeamImage} className="team-image"></img>
@@ -151,6 +164,8 @@ const LandingPage = () => {
                             </div>
                         </div>
                     </div>
+
+         {/* =========== Seventh Div ============   */}
 
                     <div className='footer d-flex justify-content-center flex-column'>
                         <div className='d-flex justify-content-center mb-4'>
