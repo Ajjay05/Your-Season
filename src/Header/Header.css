@@ -73,4 +73,7 @@
   .playstoreContainers {
     left: 0px;
   }
+  .headerContainer{
+    padding-left: 25px;
+  };
 }

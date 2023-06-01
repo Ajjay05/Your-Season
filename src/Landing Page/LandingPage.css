@@ -231,3 +231,49 @@ padding:0.625rem 3.75rem 0.625rem 3.75rem;
 .footer-options{
 padding: 0rem 15.625rem 0rem 15.625rem;
 }
+
+
+@media screen  and (max-width:1023px){
+    .contact-us{
+        padding-top:1.25rem;
+        padding-bottom: 1.875rem;
+        padding-right: 3.25rem;
+    }
+    .footer-options{
+       padding: 0rem 3.625rem 0rem 3.625rem
+    }
+}
+
+@media screen and (max-width:767px) {
+    .collection_text{
+font-size:1.5rem;
+
+    }
+
+    .editor-choice-text{
+        font-size: 0.6rem;
+    }
+    .feature_image_size{
+        height: 60px;
+    width: 60px
+    }
+    .explore-outfits{
+        font-size: 0.8rem;
+    }
+    .explore-outfits-text{
+        font-size:0.6rem;
+    }
+    .footer-options{
+        padding: 0rem 1.625rem 0rem 1.625rem;
+    font-size: 0.7rem;
+    }
+    .below-collection{
+        font-size: 0.65rem;
+    }
+    .awesome-features{
+        font-size: 1.5rem;
+    }
+    .awesome-feature-belowText{
+      font-size: 0.65rem;
+    }
+}
